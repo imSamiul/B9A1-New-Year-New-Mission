@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header-image {
+  width: 1320px;
+  height: 600px;
+
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./resources/Banner\ Image.png");
+  border-radius: 16px;
+}
+.new-year {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.party-celebration {
+  text-align: center;
+  width: 632px;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  margin: 0;
+}
+.offer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.offer {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: normal;
+}
+.holiday-deals {
+  margin-top: 48px;
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-style: normal;
+}
+.all-categories {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+.new-year-photo {
+  margin-top: 48px;
+  height: 500px;
+}
+.midnight-party-section {
+  display: flex;
+  justify-content: center;
+}
+.midnight-party-content {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./resources/Vectorrr.png");
+  background-size: cover;
+  width: 1320px;
+  border-radius: 16px;
+  height: 600px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-repeat: no-repeat;
+  gap: 50px;
+}
+.midnight-heading {
+  width: 642px;
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.midnight-text {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+}
+.midnight-party-join-btn {
+  color: white;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.booking-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.booking-text {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.booking span {
+  color: #f00;
+  font-weight: 700;
+}
+.booking {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 56px;
+}
+.join-now-btn {
+  margin-top: 48px;
+  background-color: #f00;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.coming-soon-section {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.coming-soon-text-1 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #f00;
+  margin-bottom: 16px;
+}
+.coming-soon-text > h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.coming-soon-text-2 {
+  width: 393px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.coming-soon-image > img {
+  border: 20px solid #ff0000;
+  border-radius: 50%;
+  padding: 19px;
+}
+.coming-soon-year .year {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+.coming-soon-year .coming-soon-year-paragraph {
+  width: 276px;
+  margin-top: 16px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 71px;
+}
