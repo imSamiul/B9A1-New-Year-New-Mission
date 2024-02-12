@@ -451,3 +451,13 @@ footer {
   gap: 16px;
   align-items: center;
 }
+.horizontal-line {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 70%;
+  margin: 48px auto;
+}
+.reference-website {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
