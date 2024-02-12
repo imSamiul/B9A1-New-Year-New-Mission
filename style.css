@@ -445,3 +445,9 @@ footer {
   letter-spacing: 0%;
   text-align: left;
 }
+.phone,
+.website {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
