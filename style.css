@@ -311,7 +311,9 @@ img.red-table {
 }
 .gift-section {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 120px;
 }
 .gift-text-section {
   width: 75%;
@@ -342,4 +344,14 @@ img.red-table {
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
+}
+.gift-grid-section {
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.gift-grid-section img {
+  width: 100%;
+  height: auto;
 }
