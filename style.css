@@ -420,6 +420,7 @@ footer {
   background: rgb(7, 2, 17);
   color: white;
   padding: 120px 0;
+  font-family: Inter;
 }
 .contact-section {
   width: 70%;
@@ -430,7 +431,6 @@ footer {
 .location {
   width: 375px;
 
-  font-family: Inter;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
@@ -438,7 +438,6 @@ footer {
   text-align: left;
 }
 .contact-info {
-  font-family: Inter;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
@@ -453,11 +452,23 @@ footer {
 }
 .horizontal-line {
   border: 1px solid rgba(255, 255, 255, 0.15);
-  width: 70%;
+  width: 80%;
   margin: 48px auto;
 }
 .reference-website {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+.reserved-section {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
 }
